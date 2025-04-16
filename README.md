@@ -1,41 +1,30 @@
-Stack Implementation in C++ 🚀
-This is a simple implementation of a Stack data structure in C++. It includes basic operations like push, pop, peek, and size.
+Queue Implementation in C++ 🚀<br />
+A basic Queue data structure in C++ with core operations.
+<br />
+Operations 🔧<br />
+Enqueue: Add an element to the queue.<br />
 
-Features 🌟
-Push an element onto the stack.
+Dequeue: Remove an element from the front.<br />
 
-Pop an element from the stack.
+Peek: View the front element.<br />
 
-Peek the top element without removing it.
+Size: Get the current number of elements.<br />
 
-Size of the stack.
+Example 💻<br />
+cpp<br />
+Copy<br />
+Edit<br />
+Queue Q;<br />
 
-Operations 🔧
-Push: Adds an element to the top of the stack.
+Q.enqueue(10);<br />  // Adds 10
+Q.enqueue(20);<br />  // Adds 20
+Q.dequeue();<br />    // Removes 10
+Q.size();<br />       // Returns the size
+Q.peek();<br />       // Shows the front element
+Compile 💻<br />
+Save as queue.cpp.<br />
 
-Pop: Removes and returns the top element.
+Compile with: g++ queue.cpp -o queue.<br />
 
-Top: Shows the top element without removing it.
+Run with: ./queue.<br />
 
-Size: Displays the number of elements in the stack.
-
-Example Usage 💻
-cpp
-Copy
-Edit
-Stack S;
-
-S.push(10);    // Adds 10 to the stack
-S.push(20);    // Adds 20 to the stack
-S.pop();       // Removes 20 from the stack
-S.size();      // Returns the current size of the stack
-S.top();       // Returns the top element of the stack
-Compilation 💻
-Save the code as stack.cpp.
-
-Compile using g++ stack.cpp -o stack.
-
-Run the program using ./stack.
-
-Requirements ⚙️
-A C++ compiler like g++.
